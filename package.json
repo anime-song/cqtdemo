@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://anime-song.github.io/cqtdemo",
   "dependencies": {
+    "@tensorflow/tfjs": "^4.20.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -19,8 +20,7 @@
     "eject": "react-scripts eject",
     "rm": "rmdir /s /q docs",
     "mv": "ren build docs",
-    "git": "git add . && git commit && git push origin main",
-    "deploy": "npm run rm && npm run build && npm run mv && npm run git"
+    "deploy": "npm run rm && npm run build && npm run mv"
   },
   "eslintConfig": {
     "extends": [
